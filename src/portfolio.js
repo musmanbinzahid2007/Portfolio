@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Muhammad Usman Bin Zahid Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url:"",
   },
 };
 
