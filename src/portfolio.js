@@ -45,7 +45,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "www.linkedin.com/in/muhammad-usman-bin-zahid",
+    link: "https://www.linkedin.com/in/muhammad-usman-bin-zahid",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
