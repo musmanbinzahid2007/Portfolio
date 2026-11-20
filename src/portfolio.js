@@ -131,11 +131,11 @@ const competitiveSites = {
     {
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
-     /* style: {
+      style: {
         color: "#1F8ACB",
       },
       profileLink: "http://codeforces.com/profile/layman_brother",
-    },*/
+    },
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
@@ -156,7 +156,7 @@ const competitiveSites = {
 };
 
 const degrees = {
-  degrees:
+  degrees: [
     {
       title: "Indian Institute of Information Technology Kurnool",
       subtitle: "B.Tech. in Computer Engineering",
