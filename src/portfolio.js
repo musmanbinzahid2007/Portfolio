@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "MuhammadUsmanBinZahid",
   nickname: "One Man Army",
   subTitle:
-    "A front-end developer in the making. I have learnt HTML and CSS, I have learnt JavaScript, and I am eager to learn something new.",
+    "Aspiring Front-End Developer skilled in HTML, CSS, and JavaScript, passionate about building clean, responsive web pages and learning modern frameworks.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/musmanbinzahid2007/Portfolio",
