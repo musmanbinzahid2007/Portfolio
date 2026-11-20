@@ -166,7 +166,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "usman_profile.jpeg", // Upload usman_profile.jpeg into src/assests/images/
+    profile_image_path: "usman_profile.png", // Upload usman_profile.png into src/assests/images/
     description:
       "I am available on GitHub, LinkedIn, and Email. Feel free to reach out to me—I will reply within 24 hours. I am always excited to connect, collaborate, and learn new front-end technologies.",
   },
