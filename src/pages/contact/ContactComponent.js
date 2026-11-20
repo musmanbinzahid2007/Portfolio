@@ -10,6 +10,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { contactPageData } from "../../portfolio.js";
 import { greeting, contactPageData, socialMediaLinks } from "../../portfolio.js";
+import { greeting, contactPageData, socialMediaLinks } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
