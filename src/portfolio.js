@@ -49,15 +49,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-google",
     backgroundColor: "#D14836",
   },
-  // Add your own Instagram link below when ready:
-  /*
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/your_username/",
-    fontAwesomeIcon: "fa-instagram",
-    backgroundColor: "#E4405F",
-  },
-  */
 ];
 
 const skills = {
@@ -100,9 +91,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    // Cleared previous author's profiles. Add your own LeetCode/HackerRank links here later.
-  ],
+  competitiveSites: [],
 };
 
 const degrees = {
@@ -110,7 +99,7 @@ const degrees = {
     {
       title: "University of Engineering and Technology, Taxila",
       subtitle: "Bachelor of Science in Software Engineering",
-      logo_path: "uet_taxila_logo.png", // Save UET Taxila logo as uet_taxila_logo.png in src/assests/images/
+      logo_path: "uet_taxila_logo.png", // Upload uet_taxila_logo.png into src/assests/images/
       alt_name: "UET Taxila",
       duration: "2025 - Present",
       descriptions: [
@@ -124,9 +113,7 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
-    // Kept empty so no placeholder certifications appear on the Education page.
-  ],
+  certifications: [],
 };
 
 // Experience Page
@@ -137,7 +124,23 @@ const experience = {
     "I am a new undergraduate student who has not worked with any company yet, so I am eager to gain hands-on experience and curious to learn new things. I know HTML, CSS, and JavaScript, and I am continuously improving my front-end development skills.",
   header_image_path: "experience.svg",
   sections: [
-    // Add your internships, freelance work, or university society roles here in the future.
+    {
+      title: "Learning & Practice",
+      work: true,
+      experiences: [
+        {
+          title: "Aspiring Front-End Web Developer",
+          company: "Undergraduate Student — UET Taxila",
+          company_url: "https://github.com/musmanbinzahid2007",
+          logo_path: "github_logo.png",
+          duration: "2025 - Present",
+          location: "Islamabad, Pakistan",
+          description:
+            "Currently pursuing a Bachelor of Science in Software Engineering and building responsive front-end web projects using HTML, CSS, and JavaScript. Open to entry-level internships and collaborative learning opportunities.",
+          color: "#0879bf",
+        },
+      ],
+    },
   ],
 };
 
@@ -156,16 +159,14 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-    // Kept empty so previous author's research papers are removed.
-  ],
+  data: [],
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "usman_profile.jpeg", // Rename It's me.jpeg to usman_profile.jpeg in src/assests/images/
+    profile_image_path: "usman_profile.jpeg", // Upload usman_profile.jpeg into src/assests/images/
     description:
       "I am available on GitHub, LinkedIn, and Email. Feel free to reach out to me—I will reply within 24 hours. I am always excited to connect, collaborate, and learn new front-end technologies.",
   },
