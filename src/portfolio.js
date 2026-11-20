@@ -131,11 +131,11 @@ const competitiveSites = {
     {
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
-      style: {
+     /* style: {
         color: "#1F8ACB",
       },
       profileLink: "http://codeforces.com/profile/layman_brother",
-    },
+    },*/
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
@@ -156,17 +156,7 @@ const competitiveSites = {
 };
 
 const degrees = {
-  degrees: [
-    {
-      title: "UD Texla",
-      subtitle: "Software Engineering",
-      alt_name: "UD Texla",
-      duration: "2025 - 2029",
-      descriptions: [
-        "⚡ Studying Software Engineering with a focus on front-end development.",
-        "⚡ Building skills in HTML, CSS and JavaScript.",
-      ],
-    },
+  degrees:
     {
       title: "Indian Institute of Information Technology Kurnool",
       subtitle: "B.Tech. in Computer Engineering",
