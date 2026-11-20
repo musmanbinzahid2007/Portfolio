@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     align-items: center;
-    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 68%, #f0f1f2 100%);
+    background: linear-gradient(to bottom, #f3f4f6 0%, #e9ebef 58%, #d9dde3 100%);
     background-attachment: fixed;
     color: ${({ theme }) => theme.text};
     display: flex;

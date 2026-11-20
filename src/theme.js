@@ -1,6 +1,6 @@
 // theme.js
 export const blueTheme = {
-  body: "#EDF9FE",
+  body: "#F3F4F6",
   text: "#001C55",
   expTxtColor: "#000a12",
   highlight: "#A6E1FA",
@@ -10,7 +10,7 @@ export const blueTheme = {
   compImgHighlight: "#E6E6E6",
   jacketColor: "#0A2472",
   headerColor: "#0E6BA877",
-  splashBg: "#FFFFFF",
+  splashBg: "#F3F4F6",
 };
 
 export const brownTheme = {
