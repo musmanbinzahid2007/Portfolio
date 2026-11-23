@@ -1,0 +1,42 @@
+/* Global responsive safeguards across mobile, tablet, and desktop */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tablet and Mobile adjustments */
+@media (max-width: 768px) {
+  .greeting-text {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+
+  .greeting-nickname {
+    font-size: 20px !important;
+  }
+
+  .greeting-text-p,
+  .subTitle {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+  .profile-pic-div img {
+    max-width: 240px !important;
+    border-radius: 50%;
+  }
+
+  .main-button {
+    width: 100%;
+    max-width: 260px;
+    margin: 10px auto !important;
+    text-align: center;
+  }
+}
